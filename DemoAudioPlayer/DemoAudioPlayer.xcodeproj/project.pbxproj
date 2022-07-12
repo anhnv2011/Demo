@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BF7DD1286487C900FF27F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF7DD0286487C900FF27F6 /* AppDelegate.swift */; };
+		04BF7DDA286487CC00FF27F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7DD9286487CC00FF27F6 /* Assets.xcassets */; };
+		04BF7DDD286487CC00FF27F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7DDB286487CC00FF27F6 /* LaunchScreen.storyboard */; };
+		04BF7DE8286487CC00FF27F6 /* DemoAudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF7DE7286487CC00FF27F6 /* DemoAudioPlayerTests.swift */; };
+		04BF7DF3286487CD00FF27F6 /* DemoAudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF7DF2286487CD00FF27F6 /* DemoAudioPlayerUITests.swift */; };
+		04BF7E082864881400FF27F6 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF7E062864881400FF27F6 /* PlayerViewController.swift */; };
+		04BF7E092864881400FF27F6 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E072864881400FF27F6 /* PlayerViewController.xib */; };
+		04BF7E20286489FC00FF27F6 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E14286489FB00FF27F6 /* Roboto-Light.ttf */; };
+		04BF7E21286489FC00FF27F6 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E15286489FB00FF27F6 /* Roboto-MediumItalic.ttf */; };
+		04BF7E22286489FC00FF27F6 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E16286489FB00FF27F6 /* Roboto-Thin.ttf */; };
+		04BF7E23286489FC00FF27F6 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E17286489FB00FF27F6 /* Roboto-BlackItalic.ttf */; };
+		04BF7E24286489FC00FF27F6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E18286489FB00FF27F6 /* Roboto-Bold.ttf */; };
+		04BF7E25286489FC00FF27F6 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E19286489FB00FF27F6 /* Roboto-Medium.ttf */; };
+		04BF7E26286489FC00FF27F6 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E1A286489FB00FF27F6 /* Roboto-Italic.ttf */; };
+		04BF7E27286489FC00FF27F6 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E1B286489FB00FF27F6 /* Roboto-Black.ttf */; };
+		04BF7E28286489FC00FF27F6 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E1C286489FB00FF27F6 /* Roboto-LightItalic.ttf */; };
+		04BF7E29286489FC00FF27F6 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E1D286489FB00FF27F6 /* Roboto-Regular.ttf */; };
+		04BF7E2A286489FC00FF27F6 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E1E286489FB00FF27F6 /* Roboto-BoldItalic.ttf */; };
+		04BF7E2B286489FC00FF27F6 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E1F286489FB00FF27F6 /* Roboto-ThinItalic.ttf */; };
+		04BF7E31286492C500FF27F6 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E30286492C500FF27F6 /* audio.mp3 */; };
+		04BF7E362864970200FF27F6 /* audio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E352864970200FF27F6 /* audio2.mp3 */; };
+		04BF7E3E2864A59B00FF27F6 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF7E3D2864A59B00FF27F6 /* extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BF7DE4286487CC00FF27F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BF7DC5286487C900FF27F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BF7DCC286487C900FF27F6;
+			remoteInfo = DemoAudioPlayer;
+		};
+		04BF7DEF286487CD00FF27F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BF7DC5286487C900FF27F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BF7DCC286487C900FF27F6;
+			remoteInfo = DemoAudioPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BF7DCD286487C900FF27F6 /* DemoAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF7DD0286487C900FF27F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04BF7DD9286487CC00FF27F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BF7DDC286487CC00FF27F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BF7DDE286487CC00FF27F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF7DE3286487CC00FF27F6 /* DemoAudioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAudioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF7DE7286487CC00FF27F6 /* DemoAudioPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAudioPlayerTests.swift; sourceTree = "<group>"; };
+		04BF7DE9286487CC00FF27F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF7DEE286487CC00FF27F6 /* DemoAudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF7DF2286487CD00FF27F6 /* DemoAudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAudioPlayerUITests.swift; sourceTree = "<group>"; };
+		04BF7DF4286487CD00FF27F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF7E062864881400FF27F6 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		04BF7E072864881400FF27F6 /* PlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		04BF7E14286489FB00FF27F6 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		04BF7E15286489FB00FF27F6 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		04BF7E16286489FB00FF27F6 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		04BF7E17286489FB00FF27F6 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		04BF7E18286489FB00FF27F6 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		04BF7E19286489FB00FF27F6 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		04BF7E1A286489FB00FF27F6 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		04BF7E1B286489FB00FF27F6 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		04BF7E1C286489FB00FF27F6 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		04BF7E1D286489FB00FF27F6 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		04BF7E1E286489FB00FF27F6 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		04BF7E1F286489FB00FF27F6 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		04BF7E30286492C500FF27F6 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		04BF7E352864970200FF27F6 /* audio2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio2.mp3; sourceTree = "<group>"; };
+		04BF7E3D2864A59B00FF27F6 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BF7DCA286487C900FF27F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF7DE0286487CC00FF27F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF7DEB286487CC00FF27F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BF7DC4286487C900FF27F6 = {
+			isa = PBXGroup;
+			children = (
+				04BF7DCF286487C900FF27F6 /* DemoAudioPlayer */,
+				04BF7DE6286487CC00FF27F6 /* DemoAudioPlayerTests */,
+				04BF7DF1286487CD00FF27F6 /* DemoAudioPlayerUITests */,
+				04BF7DCE286487C900FF27F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BF7DCE286487C900FF27F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BF7DCD286487C900FF27F6 /* DemoAudioPlayer.app */,
+				04BF7DE3286487CC00FF27F6 /* DemoAudioPlayerTests.xctest */,
+				04BF7DEE286487CC00FF27F6 /* DemoAudioPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BF7DCF286487C900FF27F6 /* DemoAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				04BF7E352864970200FF27F6 /* audio2.mp3 */,
+				04BF7E2F286492AA00FF27F6 /* Audio */,
+				04BF7E13286489D700FF27F6 /* Font */,
+				04BF7DD0286487C900FF27F6 /* AppDelegate.swift */,
+				04BF7DD9286487CC00FF27F6 /* Assets.xcassets */,
+				04BF7DDB286487CC00FF27F6 /* LaunchScreen.storyboard */,
+				04BF7DDE286487CC00FF27F6 /* Info.plist */,
+				04BF7E062864881400FF27F6 /* PlayerViewController.swift */,
+				04BF7E072864881400FF27F6 /* PlayerViewController.xib */,
+				04BF7E3D2864A59B00FF27F6 /* extension.swift */,
+			);
+			path = DemoAudioPlayer;
+			sourceTree = "<group>";
+		};
+		04BF7DE6286487CC00FF27F6 /* DemoAudioPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BF7DE7286487CC00FF27F6 /* DemoAudioPlayerTests.swift */,
+				04BF7DE9286487CC00FF27F6 /* Info.plist */,
+			);
+			path = DemoAudioPlayerTests;
+			sourceTree = "<group>";
+		};
+		04BF7DF1286487CD00FF27F6 /* DemoAudioPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BF7DF2286487CD00FF27F6 /* DemoAudioPlayerUITests.swift */,
+				04BF7DF4286487CD00FF27F6 /* Info.plist */,
+			);
+			path = DemoAudioPlayerUITests;
+			sourceTree = "<group>";
+		};
+		04BF7E13286489D700FF27F6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				04BF7E1B286489FB00FF27F6 /* Roboto-Black.ttf */,
+				04BF7E17286489FB00FF27F6 /* Roboto-BlackItalic.ttf */,
+				04BF7E18286489FB00FF27F6 /* Roboto-Bold.ttf */,
+				04BF7E1E286489FB00FF27F6 /* Roboto-BoldItalic.ttf */,
+				04BF7E1A286489FB00FF27F6 /* Roboto-Italic.ttf */,
+				04BF7E14286489FB00FF27F6 /* Roboto-Light.ttf */,
+				04BF7E1C286489FB00FF27F6 /* Roboto-LightItalic.ttf */,
+				04BF7E19286489FB00FF27F6 /* Roboto-Medium.ttf */,
+				04BF7E15286489FB00FF27F6 /* Roboto-MediumItalic.ttf */,
+				04BF7E1D286489FB00FF27F6 /* Roboto-Regular.ttf */,
+				04BF7E16286489FB00FF27F6 /* Roboto-Thin.ttf */,
+				04BF7E1F286489FB00FF27F6 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		04BF7E2F286492AA00FF27F6 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				04BF7E30286492C500FF27F6 /* audio.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BF7DCC286487C900FF27F6 /* DemoAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF7DF7286487CD00FF27F6 /* Build configuration list for PBXNativeTarget "DemoAudioPlayer" */;
+			buildPhases = (
+				04BF7DC9286487C900FF27F6 /* Sources */,
+				04BF7DCA286487C900FF27F6 /* Frameworks */,
+				04BF7DCB286487C900FF27F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoAudioPlayer;
+			productName = DemoAudioPlayer;
+			productReference = 04BF7DCD286487C900FF27F6 /* DemoAudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BF7DE2286487CC00FF27F6 /* DemoAudioPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF7DFA286487CD00FF27F6 /* Build configuration list for PBXNativeTarget "DemoAudioPlayerTests" */;
+			buildPhases = (
+				04BF7DDF286487CC00FF27F6 /* Sources */,
+				04BF7DE0286487CC00FF27F6 /* Frameworks */,
+				04BF7DE1286487CC00FF27F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BF7DE5286487CC00FF27F6 /* PBXTargetDependency */,
+			);
+			name = DemoAudioPlayerTests;
+			productName = DemoAudioPlayerTests;
+			productReference = 04BF7DE3286487CC00FF27F6 /* DemoAudioPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BF7DED286487CC00FF27F6 /* DemoAudioPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF7DFD286487CD00FF27F6 /* Build configuration list for PBXNativeTarget "DemoAudioPlayerUITests" */;
+			buildPhases = (
+				04BF7DEA286487CC00FF27F6 /* Sources */,
+				04BF7DEB286487CC00FF27F6 /* Frameworks */,
+				04BF7DEC286487CC00FF27F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BF7DF0286487CD00FF27F6 /* PBXTargetDependency */,
+			);
+			name = DemoAudioPlayerUITests;
+			productName = DemoAudioPlayerUITests;
+			productReference = 04BF7DEE286487CC00FF27F6 /* DemoAudioPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BF7DC5286487C900FF27F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					04BF7DCC286487C900FF27F6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					04BF7DE2286487CC00FF27F6 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 04BF7DCC286487C900FF27F6;
+					};
+					04BF7DED286487CC00FF27F6 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 04BF7DCC286487C900FF27F6;
+					};
+				};
+			};
+			buildConfigurationList = 04BF7DC8286487C900FF27F6 /* Build configuration list for PBXProject "DemoAudioPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BF7DC4286487C900FF27F6;
+			productRefGroup = 04BF7DCE286487C900FF27F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BF7DCC286487C900FF27F6 /* DemoAudioPlayer */,
+				04BF7DE2286487CC00FF27F6 /* DemoAudioPlayerTests */,
+				04BF7DED286487CC00FF27F6 /* DemoAudioPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BF7DCB286487C900FF27F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF7E2B286489FC00FF27F6 /* Roboto-ThinItalic.ttf in Resources */,
+				04BF7DDD286487CC00FF27F6 /* LaunchScreen.storyboard in Resources */,
+				04BF7E21286489FC00FF27F6 /* Roboto-MediumItalic.ttf in Resources */,
+				04BF7E28286489FC00FF27F6 /* Roboto-LightItalic.ttf in Resources */,
+				04BF7E22286489FC00FF27F6 /* Roboto-Thin.ttf in Resources */,
+				04BF7E23286489FC00FF27F6 /* Roboto-BlackItalic.ttf in Resources */,
+				04BF7E362864970200FF27F6 /* audio2.mp3 in Resources */,
+				04BF7DDA286487CC00FF27F6 /* Assets.xcassets in Resources */,
+				04BF7E27286489FC00FF27F6 /* Roboto-Black.ttf in Resources */,
+				04BF7E20286489FC00FF27F6 /* Roboto-Light.ttf in Resources */,
+				04BF7E31286492C500FF27F6 /* audio.mp3 in Resources */,
+				04BF7E24286489FC00FF27F6 /* Roboto-Bold.ttf in Resources */,
+				04BF7E26286489FC00FF27F6 /* Roboto-Italic.ttf in Resources */,
+				04BF7E29286489FC00FF27F6 /* Roboto-Regular.ttf in Resources */,
+				04BF7E092864881400FF27F6 /* PlayerViewController.xib in Resources */,
+				04BF7E2A286489FC00FF27F6 /* Roboto-BoldItalic.ttf in Resources */,
+				04BF7E25286489FC00FF27F6 /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF7DE1286487CC00FF27F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF7DEC286487CC00FF27F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BF7DC9286487C900FF27F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF7E3E2864A59B00FF27F6 /* extension.swift in Sources */,
+				04BF7DD1286487C900FF27F6 /* AppDelegate.swift in Sources */,
+				04BF7E082864881400FF27F6 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF7DDF286487CC00FF27F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF7DE8286487CC00FF27F6 /* DemoAudioPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF7DEA286487CC00FF27F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF7DF3286487CD00FF27F6 /* DemoAudioPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BF7DE5286487CC00FF27F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BF7DCC286487C900FF27F6 /* DemoAudioPlayer */;
+			targetProxy = 04BF7DE4286487CC00FF27F6 /* PBXContainerItemProxy */;
+		};
+		04BF7DF0286487CD00FF27F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BF7DCC286487C900FF27F6 /* DemoAudioPlayer */;
+			targetProxy = 04BF7DEF286487CD00FF27F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BF7DDB286487CC00FF27F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BF7DDC286487CC00FF27F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BF7DF5286487CD00FF27F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04BF7DF6286487CD00FF27F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BF7DF8286487CD00FF27F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoAudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = b.DemoAudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04BF7DF9286487CD00FF27F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoAudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = b.DemoAudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04BF7DFB286487CD00FF27F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoAudioPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = b.DemoAudioPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoAudioPlayer.app/DemoAudioPlayer";
+			};
+			name = Debug;
+		};
+		04BF7DFC286487CD00FF27F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoAudioPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = b.DemoAudioPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoAudioPlayer.app/DemoAudioPlayer";
+			};
+			name = Release;
+		};
+		04BF7DFE286487CD00FF27F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoAudioPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = b.DemoAudioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoAudioPlayer;
+			};
+			name = Debug;
+		};
+		04BF7DFF286487CD00FF27F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoAudioPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = b.DemoAudioPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoAudioPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BF7DC8286487C900FF27F6 /* Build configuration list for PBXProject "DemoAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF7DF5286487CD00FF27F6 /* Debug */,
+				04BF7DF6286487CD00FF27F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF7DF7286487CD00FF27F6 /* Build configuration list for PBXNativeTarget "DemoAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF7DF8286487CD00FF27F6 /* Debug */,
+				04BF7DF9286487CD00FF27F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF7DFA286487CD00FF27F6 /* Build configuration list for PBXNativeTarget "DemoAudioPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF7DFB286487CD00FF27F6 /* Debug */,
+				04BF7DFC286487CD00FF27F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF7DFD286487CD00FF27F6 /* Build configuration list for PBXNativeTarget "DemoAudioPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF7DFE286487CD00FF27F6 /* Debug */,
+				04BF7DFF286487CD00FF27F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BF7DC5286487C900FF27F6 /* Project object */;
+}
