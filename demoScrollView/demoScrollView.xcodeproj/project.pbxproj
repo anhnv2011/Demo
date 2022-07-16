@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04990DF0287FD315004F0D78 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04990DEE287FD315004F0D78 /* PlaylistViewController.swift */; };
+		04990DF1287FD315004F0D78 /* PlaylistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04990DEF287FD315004F0D78 /* PlaylistViewController.xib */; };
+		04990DF7287FD324004F0D78 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04990DF5287FD324004F0D78 /* AlbumsViewController.swift */; };
+		04990DF8287FD324004F0D78 /* AlbumsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04990DF6287FD324004F0D78 /* AlbumsViewController.xib */; };
+		04990E04287FEED8004F0D78 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04990E02287FEED8004F0D78 /* LibraryViewController.swift */; };
+		04990E05287FEED8004F0D78 /* LibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04990E03287FEED8004F0D78 /* LibraryViewController.xib */; };
+		04990E0A287FF7FE004F0D78 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04990E09287FF7FE004F0D78 /* ToggleView.swift */; };
+		04B1092B2881633A0038481C /* BaitapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B109292881633A0038481C /* BaitapViewController.swift */; };
+		04B1092C2881633A0038481C /* BaitapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B1092A2881633A0038481C /* BaitapViewController.xib */; };
 		04BD4EAA2879A37E00F72E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD4EA92879A37E00F72E71 /* AppDelegate.swift */; };
 		04BD4EAC2879A37E00F72E71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD4EAB2879A37E00F72E71 /* SceneDelegate.swift */; };
 		04BD4EAE2879A37E00F72E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD4EAD2879A37E00F72E71 /* ViewController.swift */; };
@@ -17,6 +26,11 @@
 		04BD4ECC2879A38200F72E71 /* demoScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD4ECB2879A38200F72E71 /* demoScrollViewUITests.swift */; };
 		04BD4EDD2879AB1B00F72E71 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD4EDC2879AB1B00F72E71 /* ItemView.swift */; };
 		04BD4EE22879AB6300F72E71 /* ItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BD4EE12879AB6300F72E71 /* ItemView.xib */; };
+		04E88A71287FB0AB005EB727 /* ScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E88A6F287FB0AB005EB727 /* ScrollViewViewController.swift */; };
+		04E88A72287FB0AB005EB727 /* ScrollViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E88A70287FB0AB005EB727 /* ScrollViewViewController.xib */; };
+		04E88A78287FB686005EB727 /* ScrollViewViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E88A76287FB686005EB727 /* ScrollViewViewController2.swift */; };
+		04E88A79287FB686005EB727 /* ScrollViewViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E88A77287FB686005EB727 /* ScrollViewViewController2.xib */; };
+		04E88A81287FBBA4005EB727 /* TPKeyboardAvoidingSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E88A80287FBBA4005EB727 /* TPKeyboardAvoidingSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04990DEE287FD315004F0D78 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		04990DEF287FD315004F0D78 /* PlaylistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistViewController.xib; sourceTree = "<group>"; };
+		04990DF5287FD324004F0D78 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
+		04990DF6287FD324004F0D78 /* AlbumsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumsViewController.xib; sourceTree = "<group>"; };
+		04990E02287FEED8004F0D78 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		04990E03287FEED8004F0D78 /* LibraryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryViewController.xib; sourceTree = "<group>"; };
+		04990E09287FF7FE004F0D78 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		04B109292881633A0038481C /* BaitapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaitapViewController.swift; sourceTree = "<group>"; };
+		04B1092A2881633A0038481C /* BaitapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaitapViewController.xib; sourceTree = "<group>"; };
 		04BD4EA62879A37E00F72E71 /* demoScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BD4EA92879A37E00F72E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04BD4EAB2879A37E00F72E71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +76,11 @@
 		04BD4ECD2879A38200F72E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BD4EDC2879AB1B00F72E71 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		04BD4EE12879AB6300F72E71 /* ItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemView.xib; sourceTree = "<group>"; };
+		04E88A6F287FB0AB005EB727 /* ScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewViewController.swift; sourceTree = "<group>"; };
+		04E88A70287FB0AB005EB727 /* ScrollViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewViewController.xib; sourceTree = "<group>"; };
+		04E88A76287FB686005EB727 /* ScrollViewViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewViewController2.swift; sourceTree = "<group>"; };
+		04E88A77287FB686005EB727 /* ScrollViewViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewViewController2.xib; sourceTree = "<group>"; };
+		04E88A80287FBBA4005EB727 /* TPKeyboardAvoidingSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPKeyboardAvoidingSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +108,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04035A78287D94570052AFB5 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				04E88A6F287FB0AB005EB727 /* ScrollViewViewController.swift */,
+				04E88A70287FB0AB005EB727 /* ScrollViewViewController.xib */,
+				04E88A76287FB686005EB727 /* ScrollViewViewController2.swift */,
+				04E88A77287FB686005EB727 /* ScrollViewViewController2.xib */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		04990DDE287FD200004F0D78 /* LibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				04990E09287FF7FE004F0D78 /* ToggleView.swift */,
+				04990DED287FD2FF004F0D78 /* Albums */,
+				04990DEC287FD2F6004F0D78 /* Playlist */,
+				04990E02287FEED8004F0D78 /* LibraryViewController.swift */,
+				04990E03287FEED8004F0D78 /* LibraryViewController.xib */,
+			);
+			path = LibraryView;
+			sourceTree = "<group>";
+		};
+		04990DEC287FD2F6004F0D78 /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				04990DEE287FD315004F0D78 /* PlaylistViewController.swift */,
+				04990DEF287FD315004F0D78 /* PlaylistViewController.xib */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		04990DED287FD2FF004F0D78 /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				04990DF5287FD324004F0D78 /* AlbumsViewController.swift */,
+				04990DF6287FD324004F0D78 /* AlbumsViewController.xib */,
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
+		04B10928288162FE0038481C /* Baitap */ = {
+			isa = PBXGroup;
+			children = (
+				04B109292881633A0038481C /* BaitapViewController.swift */,
+				04B1092A2881633A0038481C /* BaitapViewController.xib */,
+			);
+			path = Baitap;
+			sourceTree = "<group>";
+		};
 		04BD4E9D2879A37E00F72E71 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +181,8 @@
 		04BD4EA82879A37E00F72E71 /* demoScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				04B10928288162FE0038481C /* Baitap */,
+				04990DDE287FD200004F0D78 /* LibraryView */,
 				04BD4EA92879A37E00F72E71 /* AppDelegate.swift */,
 				04BD4EAB2879A37E00F72E71 /* SceneDelegate.swift */,
 				04BD4EAD2879A37E00F72E71 /* ViewController.swift */,
@@ -110,7 +190,9 @@
 				04BD4EB22879A38100F72E71 /* Assets.xcassets */,
 				04BD4EB42879A38100F72E71 /* LaunchScreen.storyboard */,
 				04BD4EB72879A38100F72E71 /* Info.plist */,
+				04E88A80287FBBA4005EB727 /* TPKeyboardAvoidingSwift.swift */,
 				04BD4EE62879AB7800F72E71 /* Item */,
+				04035A78287D94570052AFB5 /* ScrollView */,
 			);
 			path = demoScrollView;
 			sourceTree = "<group>";
@@ -246,9 +328,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BD4EB62879A38100F72E71 /* LaunchScreen.storyboard in Resources */,
+				04E88A79287FB686005EB727 /* ScrollViewViewController2.xib in Resources */,
+				04E88A72287FB0AB005EB727 /* ScrollViewViewController.xib in Resources */,
+				04990DF1287FD315004F0D78 /* PlaylistViewController.xib in Resources */,
 				04BD4EB32879A38100F72E71 /* Assets.xcassets in Resources */,
+				04990E05287FEED8004F0D78 /* LibraryViewController.xib in Resources */,
 				04BD4EB12879A37E00F72E71 /* Main.storyboard in Resources */,
+				04990DF8287FD324004F0D78 /* AlbumsViewController.xib in Resources */,
 				04BD4EE22879AB6300F72E71 /* ItemView.xib in Resources */,
+				04B1092C2881633A0038481C /* BaitapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +361,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E88A71287FB0AB005EB727 /* ScrollViewViewController.swift in Sources */,
+				04B1092B2881633A0038481C /* BaitapViewController.swift in Sources */,
+				04E88A81287FBBA4005EB727 /* TPKeyboardAvoidingSwift.swift in Sources */,
 				04BD4EAE2879A37E00F72E71 /* ViewController.swift in Sources */,
+				04990DF7287FD324004F0D78 /* AlbumsViewController.swift in Sources */,
+				04E88A78287FB686005EB727 /* ScrollViewViewController2.swift in Sources */,
+				04990E0A287FF7FE004F0D78 /* ToggleView.swift in Sources */,
+				04990DF0287FD315004F0D78 /* PlaylistViewController.swift in Sources */,
+				04990E04287FEED8004F0D78 /* LibraryViewController.swift in Sources */,
 				04BD4EAA2879A37E00F72E71 /* AppDelegate.swift in Sources */,
 				04BD4EAC2879A37E00F72E71 /* SceneDelegate.swift in Sources */,
 				04BD4EDD2879AB1B00F72E71 /* ItemView.swift in Sources */,

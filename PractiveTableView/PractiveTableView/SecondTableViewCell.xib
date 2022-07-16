@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="155" id="KGk-i7-Jjw" customClass="SecondTableViewCell" customModule="PractiveTableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="386" height="155"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZH-EF-B5t">
+                        <rect key="frame" x="172" y="31" width="42" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Jk4-Ta-kEV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRi-re-sR4">
+                        <rect key="frame" x="172" y="93" width="42" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="JoA-kN-otP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                <constraints>
+                    <constraint firstItem="RRi-re-sR4" firstAttribute="top" secondItem="VZH-EF-B5t" secondAttribute="bottom" constant="32" id="7QA-t2-mgH"/>
+                    <constraint firstItem="VZH-EF-B5t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="20" id="8UM-H0-Ocl"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="RRi-re-sR4" secondAttribute="bottom" constant="16" id="Plk-H4-1uF"/>
+                    <constraint firstItem="VZH-EF-B5t" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="dMO-KB-kga"/>
+                    <constraint firstItem="RRi-re-sR4" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ozo-vd-oft"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="detailLabel" destination="RRi-re-sR4" id="rjc-vz-nCG"/>
+                <outlet property="titleLabel" destination="VZH-EF-B5t" id="yMB-oe-l8L"/>
+            </connections>
+            <point key="canvasLocation" x="185.50724637681162" y="144.97767857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
