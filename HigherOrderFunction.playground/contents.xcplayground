@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true'>
+    <pages>
+        <page name='Map-array'/>
+        <page name='Map-Dictinary_Set'/>
+        <page name='Compacmap-flatmap'/>
+        <page name='reduce'/>
+        <page name='Filter-remove'/>
+        <page name='Contain-foreach-sorted'/>
+        <page name='Sort'/>
+    </pages>
+</playground>

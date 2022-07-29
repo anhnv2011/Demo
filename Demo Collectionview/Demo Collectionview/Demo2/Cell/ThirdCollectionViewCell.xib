@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ThirdCollectionViewCell" customModule="Demo_Collectionview" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="229" height="152"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="229" height="152"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Fi0-Lc-8kg">
+                        <rect key="frame" x="0.0" y="0.0" width="229" height="108"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Gx0-ri-d0L">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="MJu-T2-vhH">
+                        <rect key="frame" x="53" y="116" width="123" height="28"/>
+                        <color key="backgroundColor" red="0.6148123741" green="0.1017967239" blue="0.1002308354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="91u-EW-SwM"/>
+                        </constraints>
+                    </pageControl>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Fi0-Lc-8kg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3sG-Fa-7DL"/>
+                <constraint firstAttribute="bottom" secondItem="MJu-T2-vhH" secondAttribute="bottom" constant="8" id="GAb-pr-sns"/>
+                <constraint firstItem="Fi0-Lc-8kg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="HTm-oi-aAH"/>
+                <constraint firstAttribute="trailing" secondItem="Fi0-Lc-8kg" secondAttribute="trailing" id="e20-ep-jC2"/>
+                <constraint firstItem="MJu-T2-vhH" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="oXE-2X-KLD"/>
+                <constraint firstItem="MJu-T2-vhH" firstAttribute="top" secondItem="Fi0-Lc-8kg" secondAttribute="bottom" constant="8" id="t05-hm-gjY"/>
+            </constraints>
+            <size key="customSize" width="229" height="152"/>
+            <connections>
+                <outlet property="collectionViea" destination="Fi0-Lc-8kg" id="yuS-aJ-sKm"/>
+                <outlet property="pageControl" destination="MJu-T2-vhH" id="e5D-Ju-hYe"/>
+            </connections>
+            <point key="canvasLocation" x="165.94202898550725" y="99.107142857142847"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="QuestionCell" customModule="QuizApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="296" height="445"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="296" height="445"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4W-LH-XRc">
+                        <rect key="frame" x="0.0" y="0.0" width="296" height="445"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tp9-8u-Sbd">
+                                <rect key="frame" x="16" y="32" width="264" height="61"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="x7N-1E-gSt">
+                                <rect key="frame" x="16" y="125" width="264" height="288"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Cp-bG-1S2">
+                                        <rect key="frame" x="0.0" y="0.0" width="264" height="60"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="fls-O5-yxP"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="actionChooseAnswer:" destination="gTV-IL-0wX" eventType="touchUpInside" id="fF9-J8-sY6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkX-2c-Kyh">
+                                        <rect key="frame" x="0.0" y="76" width="264" height="60"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="YQz-gT-rTG"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="actionChooseAnswer:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Wy0-bl-tUS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJ9-hC-g8u">
+                                        <rect key="frame" x="0.0" y="152" width="264" height="60"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="HUX-G8-RZf"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="actionChooseAnswer:" destination="gTV-IL-0wX" eventType="touchUpInside" id="86M-u4-MrG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2k5-32-AEb">
+                                        <rect key="frame" x="0.0" y="228" width="264" height="60"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="5F7-Zh-QOb"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="actionChooseAnswer:" destination="gTV-IL-0wX" eventType="touchUpInside" id="2hD-Pf-mdq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="x7N-1E-gSt" firstAttribute="top" secondItem="tp9-8u-Sbd" secondAttribute="bottom" constant="32" id="7GB-Fh-ETx"/>
+                            <constraint firstItem="tp9-8u-Sbd" firstAttribute="leading" secondItem="z4W-LH-XRc" secondAttribute="leading" constant="16" id="Mgm-mN-gel"/>
+                            <constraint firstAttribute="trailing" secondItem="tp9-8u-Sbd" secondAttribute="trailing" constant="16" id="O9p-1G-sJI"/>
+                            <constraint firstAttribute="trailing" secondItem="x7N-1E-gSt" secondAttribute="trailing" constant="16" id="WGl-I5-fCQ"/>
+                            <constraint firstAttribute="bottom" secondItem="x7N-1E-gSt" secondAttribute="bottom" constant="32" id="ZMc-Ty-apq"/>
+                            <constraint firstItem="tp9-8u-Sbd" firstAttribute="top" secondItem="z4W-LH-XRc" secondAttribute="top" constant="32" id="tSi-jO-p77"/>
+                            <constraint firstItem="x7N-1E-gSt" firstAttribute="leading" secondItem="z4W-LH-XRc" secondAttribute="leading" constant="16" id="wve-4X-9kZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="z4W-LH-XRc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RFy-Mz-rbo"/>
+                <constraint firstAttribute="trailing" secondItem="z4W-LH-XRc" secondAttribute="trailing" id="f3P-U7-Xan"/>
+                <constraint firstAttribute="bottom" secondItem="z4W-LH-XRc" secondAttribute="bottom" id="kFV-YZ-iXB"/>
+                <constraint firstItem="z4W-LH-XRc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="sNy-3I-vg4"/>
+            </constraints>
+            <size key="customSize" width="296" height="445"/>
+            <connections>
+                <outlet property="questionLabel" destination="tp9-8u-Sbd" id="4z7-HS-D6d"/>
+                <outletCollection property="listButton" destination="6Cp-bG-1S2" collectionClass="NSMutableArray" id="Vdp-1g-qRV"/>
+                <outletCollection property="listButton" destination="EkX-2c-Kyh" collectionClass="NSMutableArray" id="2hW-o9-y0v"/>
+                <outletCollection property="listButton" destination="YJ9-hC-g8u" collectionClass="NSMutableArray" id="Bi6-ot-qem"/>
+                <outletCollection property="listButton" destination="2k5-32-AEb" collectionClass="NSMutableArray" id="0jf-kC-Qso"/>
+            </connections>
+            <point key="canvasLocation" x="197.10144927536234" y="141.62946428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
