@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnimateButtonViewController" customModule="DemoAnimation" customModuleProvider="target">
+            <connections>
+                <outlet property="button1Constraint" destination="dlF-WL-n6b" id="soa-Bu-aS2"/>
+                <outlet property="button2" destination="Zrr-sf-KvO" id="irK-wJ-MXG"/>
+                <outlet property="button2WidthConstraints" destination="HTa-Ju-ZmE" id="ZLx-LC-op9"/>
+                <outlet property="like" destination="Apc-Sz-Lod" id="nC0-Jm-nxu"/>
+                <outlet property="more" destination="ycx-NQ-7R5" id="uBv-wM-2hM"/>
+                <outlet property="repeatB" destination="e72-bu-4Ia" id="zDk-jM-U6A"/>
+                <outlet property="shuffle" destination="6Wd-y7-bvv" id="PKz-6d-frF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNH-3D-cM4">
+                    <rect key="frame" x="147" y="54" width="120" height="30"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="pc4-cp-dKE"/>
+                    </constraints>
+                    <state key="normal" title="Button 1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zrr-sf-KvO">
+                    <rect key="frame" x="147" y="124" width="120" height="30"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="HTa-Ju-ZmE"/>
+                    </constraints>
+                    <state key="normal" title="Button 2"/>
+                    <connections>
+                        <action selector="clickButton2:" destination="-1" eventType="touchUpInside" id="VzS-nk-Yoc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycx-NQ-7R5">
+                    <rect key="frame" x="189" y="795" width="36" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    <state key="normal" title="more">
+                        <color key="titleColor" red="0.6148123741" green="0.1017967239" blue="0.1002308354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="moreClick:" destination="-1" eventType="touchUpInside" id="jNI-5U-k4O"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Wd-y7-bvv">
+                    <rect key="frame" x="105" y="756" width="48" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                    <state key="normal" title="shuffle"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e72-bu-4Ia">
+                    <rect key="frame" x="267" y="756" width="45" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                    <state key="normal" title="repeat"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Apc-Sz-Lod">
+                    <rect key="frame" x="187" y="703" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                    <state key="normal" title="like"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Zrr-sf-KvO" firstAttribute="top" secondItem="wNH-3D-cM4" secondAttribute="bottom" constant="40" id="5ev-b5-Snh"/>
+                <constraint firstItem="wNH-3D-cM4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dlF-WL-n6b"/>
+                <constraint firstItem="wNH-3D-cM4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="mIS-TN-OE1"/>
+                <constraint firstItem="Zrr-sf-KvO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sHi-UW-qGh"/>
+            </constraints>
+            <point key="canvasLocation" x="22" y="67"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

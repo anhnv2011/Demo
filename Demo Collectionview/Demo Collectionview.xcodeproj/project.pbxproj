@@ -19,7 +19,7 @@
 		04230650288521110049C7DB /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423064F288521110049C7DB /* SectionHeader.swift */; };
 		0423065A2885421C0049C7DB /* ThirdCollectionViewCellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042306582885421C0049C7DB /* ThirdCollectionViewCellCell.swift */; };
 		0423065B2885421C0049C7DB /* ThirdCollectionViewCellCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042306592885421C0049C7DB /* ThirdCollectionViewCellCell.xib */; };
-		0435EF022884FFE2005DAE78 /*  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435EF002884FFE2005DAE78 /*  .swift */; };
+		0435EF022884FFE2005DAE78 /* Demo2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435EF002884FFE2005DAE78 /* Demo2ViewController.swift */; };
 		0435EF032884FFE2005DAE78 /* Demo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0435EF012884FFE2005DAE78 /* Demo2ViewController.xib */; };
 		0435EF0928850121005DAE78 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435EF0728850121005DAE78 /* FirstCollectionViewCell.swift */; };
 		0435EF0A28850121005DAE78 /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0435EF0828850121005DAE78 /* FirstCollectionViewCell.xib */; };
@@ -67,7 +67,7 @@
 		0423064F288521110049C7DB /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		042306582885421C0049C7DB /* ThirdCollectionViewCellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCollectionViewCellCell.swift; sourceTree = "<group>"; };
 		042306592885421C0049C7DB /* ThirdCollectionViewCellCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdCollectionViewCellCell.xib; sourceTree = "<group>"; };
-		0435EF002884FFE2005DAE78 /*  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " .swift"; sourceTree = "<group>"; };
+		0435EF002884FFE2005DAE78 /* Demo2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo2ViewController.swift; sourceTree = "<group>"; };
 		0435EF012884FFE2005DAE78 /* Demo2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Demo2ViewController.xib; sourceTree = "<group>"; };
 		0435EF0728850121005DAE78 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
 		0435EF0828850121005DAE78 /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 		0435EEF22884FF79005DAE78 /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
-				0435EF002884FFE2005DAE78 /*  .swift */,
+				0435EF002884FFE2005DAE78 /* Demo2ViewController.swift */,
 				0435EF012884FFE2005DAE78 /* Demo2ViewController.xib */,
 				0435EF0E28850127005DAE78 /* Cell */,
 			);
@@ -363,7 +363,7 @@
 				040145CA288337940013B11A /* ImageCollectionViewCell.swift in Sources */,
 				0435EF1428850144005DAE78 /* SecondCollectionViewCell.swift in Sources */,
 				04014583288335A20013B11A /* AppDelegate.swift in Sources */,
-				0435EF022884FFE2005DAE78 /*  .swift in Sources */,
+				0435EF022884FFE2005DAE78 /* Demo2ViewController.swift in Sources */,
 				040145C0288335EF0013B11A /* DemoCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

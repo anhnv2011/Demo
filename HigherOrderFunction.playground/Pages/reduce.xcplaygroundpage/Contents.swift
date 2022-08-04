@@ -4,6 +4,11 @@ import Foundation
 
 var str = "Hello, playground"
 
+//reduce(x) { (result, value) in
+//    return result + value
+//} x là giá trị ban đầu hay vào(into) 1 cái gì đấy ví dụ số 0, chuỗi rỗng hay 1 dict, result là kêt quả , value là giá trị mỗi lần chạy duyệt, return là kết quả cần
+
+
 /* Array */
 let numbers = [1,2,3,4,5,6]
 
@@ -117,5 +122,16 @@ nang3
 
 
 
+// Tìm số lớn nhất bằng reduce
+var max = weight.reduce(0) { (currentmax, value) -> Double in
+    return currentmax > value ? currentmax : value
+}
+max
 
 
+//Đến số các chữ cái
+let letter = "abcaaabed"
+let letterCount = letter.reduce(into: [:]) { (counts, character) in
+    return counts[character, default: 0] += 1
+}
+letterCount

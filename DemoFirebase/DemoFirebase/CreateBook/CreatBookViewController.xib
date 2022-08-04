@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreatBookViewController" customModule="DemoFirebase" customModuleProvider="target">
+            <connections>
+                <outlet property="authorTextfield" destination="RHk-af-q1q" id="9Do-fh-OsX"/>
+                <outlet property="creatButton" destination="i5M-Pr-FkT" id="jIp-jy-G1Z"/>
+                <outlet property="nameTextField" destination="Nt7-ar-spD" id="kAl-pJ-Qts"/>
+                <outlet property="priceTextfield" destination="8E8-ih-YDw" id="hxf-JL-EEl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nt7-ar-spD">
+                    <rect key="frame" x="16" y="144" width="382" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RHk-af-q1q">
+                    <rect key="frame" x="16" y="210" width="382" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8E8-ih-YDw">
+                    <rect key="frame" x="16" y="276" width="382" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upe-cA-hjt">
+                    <rect key="frame" x="184" y="342" width="46" height="30"/>
+                    <state key="normal" title="Create"/>
+                    <connections>
+                        <action selector="actionButton:" destination="-1" eventType="touchUpInside" id="NYC-u9-m7c"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8E8-ih-YDw" secondAttribute="trailing" constant="16" id="3SI-5k-BfD"/>
+                <constraint firstItem="upe-cA-hjt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Km8-o8-VlH"/>
+                <constraint firstItem="Nt7-ar-spD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="T7V-F9-D8z"/>
+                <constraint firstItem="upe-cA-hjt" firstAttribute="top" secondItem="8E8-ih-YDw" secondAttribute="bottom" constant="32" id="TMJ-ba-lma"/>
+                <constraint firstItem="Nt7-ar-spD" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="dPo-77-7qx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RHk-af-q1q" secondAttribute="trailing" constant="16" id="e7v-Yb-fY9"/>
+                <constraint firstItem="8E8-ih-YDw" firstAttribute="top" secondItem="RHk-af-q1q" secondAttribute="bottom" constant="32" id="mhI-gq-H6B"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Nt7-ar-spD" secondAttribute="trailing" constant="16" id="oaA-ec-ubg"/>
+                <constraint firstItem="8E8-ih-YDw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="sHz-lV-ydc"/>
+                <constraint firstItem="RHk-af-q1q" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="wTL-5U-iCt"/>
+                <constraint firstItem="RHk-af-q1q" firstAttribute="top" secondItem="Nt7-ar-spD" secondAttribute="bottom" constant="32" id="xtb-qd-tGA"/>
+            </constraints>
+            <point key="canvasLocation" x="99" y="80"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

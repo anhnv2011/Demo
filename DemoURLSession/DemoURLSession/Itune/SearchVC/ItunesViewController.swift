@@ -17,7 +17,7 @@ class ItunesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         getData(searchString: "harry")
-        print(dataSearch)
+    
 
         searchTextfield.delegate = self
 
@@ -36,11 +36,18 @@ class ItunesViewController: UIViewController {
             guard let value = response.result.value else {
                 return
             }
-            
+//            let success = response.result.
+//            switch success {
+//            case .success(let success)
+//                print("success")
+//            case .failure(let error):
+//                print(error.localizedDescription)
+//            }
             self.dataSearch = Itunes(JSON(value)).results!
             self.collectionView.reloadData()
             
         })
+        
     }
     func configCollectionView(){
     

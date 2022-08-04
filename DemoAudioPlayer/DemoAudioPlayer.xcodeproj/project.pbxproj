@@ -27,7 +27,6 @@
 		04BF7E2A286489FC00FF27F6 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E1E286489FB00FF27F6 /* Roboto-BoldItalic.ttf */; };
 		04BF7E2B286489FC00FF27F6 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E1F286489FB00FF27F6 /* Roboto-ThinItalic.ttf */; };
 		04BF7E31286492C500FF27F6 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E30286492C500FF27F6 /* audio.mp3 */; };
-		04BF7E362864970200FF27F6 /* audio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BF7E352864970200FF27F6 /* audio2.mp3 */; };
 		04BF7E3E2864A59B00FF27F6 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF7E3D2864A59B00FF27F6 /* extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,7 +74,6 @@
 		04BF7E1E286489FB00FF27F6 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
 		04BF7E1F286489FB00FF27F6 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		04BF7E30286492C500FF27F6 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
-		04BF7E352864970200FF27F6 /* audio2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio2.mp3; sourceTree = "<group>"; };
 		04BF7E3D2864A59B00FF27F6 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,7 +125,6 @@
 		04BF7DCF286487C900FF27F6 /* DemoAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				04BF7E352864970200FF27F6 /* audio2.mp3 */,
 				04BF7E2F286492AA00FF27F6 /* Audio */,
 				04BF7E13286489D700FF27F6 /* Font */,
 				04BF7DD0286487C900FF27F6 /* AppDelegate.swift */,
@@ -295,7 +292,6 @@
 				04BF7E28286489FC00FF27F6 /* Roboto-LightItalic.ttf in Resources */,
 				04BF7E22286489FC00FF27F6 /* Roboto-Thin.ttf in Resources */,
 				04BF7E23286489FC00FF27F6 /* Roboto-BlackItalic.ttf in Resources */,
-				04BF7E362864970200FF27F6 /* audio2.mp3 in Resources */,
 				04BF7DDA286487CC00FF27F6 /* Assets.xcassets in Resources */,
 				04BF7E27286489FC00FF27F6 /* Roboto-Black.ttf in Resources */,
 				04BF7E20286489FC00FF27F6 /* Roboto-Light.ttf in Resources */,
