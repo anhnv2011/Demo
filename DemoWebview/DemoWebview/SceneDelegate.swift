@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  DemoSideMenuWithoutLibary
+//  DemoWebview
 //
-//  Created by MAC on 7/18/22.
+//  Created by MAC on 8/5/22.
 //
 
 import UIKit
@@ -13,14 +13,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        
+        window = UIWindow(frame: UIScreen.main.bounds)
         guard let scene = (scene as? UIWindowScene) else { return }
-        let window = UIWindow(windowScene: scene)
-        window.rootViewController = ConteinerViewController()
-//        window.rootViewController = UINavigationController(rootViewController: ConteinerViewController())
-
-        window.makeKeyAndVisible()
-        self.window = window
+        window?.windowScene = scene
+        
+        let vc = SafariViewController()
+        
+        window?.rootViewController = vc
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

@@ -46,6 +46,8 @@ class ConteinerViewController: UIViewController {
         nav.didMove(toParent: self)
         
         self.navc = nav
+        
+        
     }
     
     func goInforVC(){
