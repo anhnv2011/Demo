@@ -41,6 +41,7 @@ class ListBookViewController: UIViewController {
                 }
             }
         }
+        tableView.reloadData()
     }
 
 }

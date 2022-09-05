@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     let lineView = DrawLine()
-    let rectangular = RectangularView()
+    let rectangular = RectangularView() // tứ giác
     let rectangular2 = RectangularView2()
     let rectangular3 = RectangularView3()
     let rectangular4 = RectangularView4()
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     let circle = Circle()
     let oval = Oval()
     let customBrick = CustomBrickView()
-    let arc = Arcs()
+    let arc = Arcs() // 1 phaanf hinh tron
     
     override func viewDidLoad() {
         super.viewDidLoad()

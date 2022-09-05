@@ -24,6 +24,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configTableView()
+        fetchData()
+        print(arrData)
     }
     
     func configTableView(){

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413CE0428BDC6080040E791 /* PresentationAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413CE0228BDC6080040E791 /* PresentationAnimationViewController.swift */; };
+		0413CE0528BDC6080040E791 /* PresentationAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413CE0328BDC6080040E791 /* PresentationAnimationViewController.xib */; };
+		0413CE0A28BDC66B0040E791 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413CE0828BDC66B0040E791 /* ShowViewController.swift */; };
+		0413CE0B28BDC66B0040E791 /* ShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413CE0928BDC66B0040E791 /* ShowViewController.xib */; };
+		0438BE8428BC9F1D002CEE60 /* TransitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438BE8228BC9F1D002CEE60 /* TransitionsViewController.swift */; };
+		0438BE8528BC9F1D002CEE60 /* TransitionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0438BE8328BC9F1D002CEE60 /* TransitionsViewController.xib */; };
+		0438BE8828BC9F5A002CEE60 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438BE8728BC9F5A002CEE60 /* GreenViewController.swift */; };
+		0438BE8B28BC9F72002CEE60 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438BE8A28BC9F72002CEE60 /* RedViewController.swift */; };
 		0468BC28289501FE00E17108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468BC27289501FE00E17108 /* AppDelegate.swift */; };
 		0468BC2A289501FE00E17108 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468BC29289501FE00E17108 /* SceneDelegate.swift */; };
 		0468BC312895020000E17108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0468BC302895020000E17108 /* Assets.xcassets */; };
@@ -15,9 +23,41 @@
 		0468BC422895026C00E17108 /* AnimateButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0468BC402895026C00E17108 /* AnimateButtonViewController.xib */; };
 		0468BC492895121200E17108 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468BC472895121200E17108 /* TableViewController.swift */; };
 		0468BC4A2895121200E17108 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0468BC482895121200E17108 /* TableViewController.xib */; };
+		046B5A8428BE09850080474F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B5A8228BE09850080474F /* CollectionViewController.swift */; };
+		046B5A8528BE09850080474F /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046B5A8328BE09850080474F /* CollectionViewController.xib */; };
+		046B5A8A28BE0D750080474F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B5A8928BE0D750080474F /* DataManager.swift */; };
+		046B5A9028BE0DDD0080474F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B5A8E28BE0DDD0080474F /* CollectionViewCell.swift */; };
+		046B5A9128BE0DDD0080474F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046B5A8F28BE0DDD0080474F /* CollectionViewCell.xib */; };
+		046B5A9628BE0E3B0080474F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B5A9428BE0E3B0080474F /* SecondViewController.swift */; };
+		046B5A9728BE0E3B0080474F /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046B5A9528BE0E3B0080474F /* SecondViewController.xib */; };
+		046B5A9A28BE10CC0080474F /* Animator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B5A9928BE10CC0080474F /* Animator2.swift */; };
+		048C0EDB28BC4C3400891DDE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C0ED928BC4C3400891DDE /* HomeViewController.swift */; };
+		048C0EDC28BC4C3400891DDE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C0EDA28BC4C3400891DDE /* HomeViewController.xib */; };
+		048C0EE128BC4E6200891DDE /* BasicAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C0EDF28BC4E6200891DDE /* BasicAnimationViewController.swift */; };
+		048C0EE228BC4E6200891DDE /* BasicAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C0EE028BC4E6200891DDE /* BasicAnimationViewController.xib */; };
+		048C0EE828BC4EB200891DDE /* DemoCoreAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C0EE628BC4EB200891DDE /* DemoCoreAnimationViewController.swift */; };
+		048C0EE928BC4EB200891DDE /* DemoCoreAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C0EE728BC4EB200891DDE /* DemoCoreAnimationViewController.xib */; };
+		048C0EEE28BC4ECC00891DDE /* DemoPropertyAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C0EEC28BC4ECC00891DDE /* DemoPropertyAnimationViewController.swift */; };
+		048C0EEF28BC4ECC00891DDE /* DemoPropertyAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048C0EED28BC4ECC00891DDE /* DemoPropertyAnimationViewController.xib */; };
+		04B0083528BCB53B001837AE /* KeyFrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0083328BCB53B001837AE /* KeyFrameViewController.swift */; };
+		04B0083628BCB53B001837AE /* KeyFrameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B0083428BCB53B001837AE /* KeyFrameViewController.xib */; };
+		04B0084528BCC9D4001837AE /* GroupTimingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0084328BCC9D4001837AE /* GroupTimingViewController.swift */; };
+		04B0084628BCC9D4001837AE /* GroupTimingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B0084428BCC9D4001837AE /* GroupTimingViewController.xib */; };
+		04B0085228BD1B66001837AE /* CASpringAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0085028BD1B66001837AE /* CASpringAnimationViewController.swift */; };
+		04B0085328BD1B66001837AE /* CASpringAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B0085128BD1B66001837AE /* CASpringAnimationViewController.xib */; };
+		04B0085E28BD21C4001837AE /* ShapesMasksLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0085C28BD21C4001837AE /* ShapesMasksLayerViewController.swift */; };
+		04B0085F28BD21C4001837AE /* ShapesMasksLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B0085D28BD21C4001837AE /* ShapesMasksLayerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0413CE0228BDC6080040E791 /* PresentationAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAnimationViewController.swift; sourceTree = "<group>"; };
+		0413CE0328BDC6080040E791 /* PresentationAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresentationAnimationViewController.xib; sourceTree = "<group>"; };
+		0413CE0828BDC66B0040E791 /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		0413CE0928BDC66B0040E791 /* ShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowViewController.xib; sourceTree = "<group>"; };
+		0438BE8228BC9F1D002CEE60 /* TransitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsViewController.swift; sourceTree = "<group>"; };
+		0438BE8328BC9F1D002CEE60 /* TransitionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransitionsViewController.xib; sourceTree = "<group>"; };
+		0438BE8728BC9F5A002CEE60 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		0438BE8A28BC9F72002CEE60 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		0468BC24289501FE00E17108 /* DemoAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0468BC27289501FE00E17108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0468BC29289501FE00E17108 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +68,30 @@
 		0468BC402895026C00E17108 /* AnimateButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimateButtonViewController.xib; sourceTree = "<group>"; };
 		0468BC472895121200E17108 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		0468BC482895121200E17108 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		046B5A8228BE09850080474F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		046B5A8328BE09850080474F /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		046B5A8928BE0D750080474F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		046B5A8E28BE0DDD0080474F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		046B5A8F28BE0DDD0080474F /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		046B5A9428BE0E3B0080474F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		046B5A9528BE0E3B0080474F /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		046B5A9928BE10CC0080474F /* Animator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator2.swift; sourceTree = "<group>"; };
+		048C0ED928BC4C3400891DDE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		048C0EDA28BC4C3400891DDE /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		048C0EDF28BC4E6200891DDE /* BasicAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationViewController.swift; sourceTree = "<group>"; };
+		048C0EE028BC4E6200891DDE /* BasicAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicAnimationViewController.xib; sourceTree = "<group>"; };
+		048C0EE628BC4EB200891DDE /* DemoCoreAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCoreAnimationViewController.swift; sourceTree = "<group>"; };
+		048C0EE728BC4EB200891DDE /* DemoCoreAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoCoreAnimationViewController.xib; sourceTree = "<group>"; };
+		048C0EEC28BC4ECC00891DDE /* DemoPropertyAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPropertyAnimationViewController.swift; sourceTree = "<group>"; };
+		048C0EED28BC4ECC00891DDE /* DemoPropertyAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoPropertyAnimationViewController.xib; sourceTree = "<group>"; };
+		04B0083328BCB53B001837AE /* KeyFrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameViewController.swift; sourceTree = "<group>"; };
+		04B0083428BCB53B001837AE /* KeyFrameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyFrameViewController.xib; sourceTree = "<group>"; };
+		04B0084328BCC9D4001837AE /* GroupTimingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTimingViewController.swift; sourceTree = "<group>"; };
+		04B0084428BCC9D4001837AE /* GroupTimingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupTimingViewController.xib; sourceTree = "<group>"; };
+		04B0085028BD1B66001837AE /* CASpringAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CASpringAnimationViewController.swift; sourceTree = "<group>"; };
+		04B0085128BD1B66001837AE /* CASpringAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CASpringAnimationViewController.xib; sourceTree = "<group>"; };
+		04B0085C28BD21C4001837AE /* ShapesMasksLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesMasksLayerViewController.swift; sourceTree = "<group>"; };
+		04B0085D28BD21C4001837AE /* ShapesMasksLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShapesMasksLayerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +105,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0413CE0128BDC5BF0040E791 /* 9.Presentation Animation */ = {
+			isa = PBXGroup;
+			children = (
+				0413CE0228BDC6080040E791 /* PresentationAnimationViewController.swift */,
+				0413CE0328BDC6080040E791 /* PresentationAnimationViewController.xib */,
+				0413CE0828BDC66B0040E791 /* ShowViewController.swift */,
+				0413CE0928BDC66B0040E791 /* ShowViewController.xib */,
+			);
+			path = "9.Presentation Animation";
+			sourceTree = "<group>";
+		};
+		0438BE8128BC9EF8002CEE60 /* 4.Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				0438BE8228BC9F1D002CEE60 /* TransitionsViewController.swift */,
+				0438BE8328BC9F1D002CEE60 /* TransitionsViewController.xib */,
+				0438BE8728BC9F5A002CEE60 /* GreenViewController.swift */,
+				0438BE8A28BC9F72002CEE60 /* RedViewController.swift */,
+			);
+			path = 4.Transitions;
+			sourceTree = "<group>";
+		};
 		0468BC1B289501FE00E17108 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +146,17 @@
 		0468BC26289501FE00E17108 /* DemoAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				048C0ED828BC4C1900891DDE /* HomeVC */,
+				048C0EDE28BC4E3300891DDE /* 1.Basic Animation */,
+				048C0EE428BC4E6B00891DDE /* 2.Core Animation */,
+				048C0EE528BC4E8800891DDE /* 3.UIViewPropertyAnimator */,
+				0438BE8128BC9EF8002CEE60 /* 4.Transitions */,
+				04B0083228BCB518001837AE /* 5.KeyFrame */,
+				04B0083928BCC3BD001837AE /* 6.GroupTiming */,
+				04B0084828BD191F001837AE /* 7.CASpringAnimation */,
+				04B0085B28BD2196001837AE /* 8.Shapes+MasksLayer */,
+				0413CE0128BDC5BF0040E791 /* 9.Presentation Animation */,
+				046B5A8128BE09300080474F /* 10.CollectionView */,
 				0468BC46289511F700E17108 /* Table */,
 				0468BC3E2895024800E17108 /* Button */,
 				0468BC27289501FE00E17108 /* AppDelegate.swift */,
@@ -87,6 +184,110 @@
 				0468BC482895121200E17108 /* TableViewController.xib */,
 			);
 			path = Table;
+			sourceTree = "<group>";
+		};
+		046B5A8128BE09300080474F /* 10.CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				046B5A8D28BE0DB10080474F /* Cell */,
+				046B5A8828BE0D5F0080474F /* DataManager */,
+				046B5A8228BE09850080474F /* CollectionViewController.swift */,
+				046B5A8328BE09850080474F /* CollectionViewController.xib */,
+				046B5A9428BE0E3B0080474F /* SecondViewController.swift */,
+				046B5A9528BE0E3B0080474F /* SecondViewController.xib */,
+				046B5A9928BE10CC0080474F /* Animator2.swift */,
+			);
+			path = 10.CollectionView;
+			sourceTree = "<group>";
+		};
+		046B5A8828BE0D5F0080474F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				046B5A8928BE0D750080474F /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		046B5A8D28BE0DB10080474F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				046B5A8E28BE0DDD0080474F /* CollectionViewCell.swift */,
+				046B5A8F28BE0DDD0080474F /* CollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		048C0ED828BC4C1900891DDE /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				048C0ED928BC4C3400891DDE /* HomeViewController.swift */,
+				048C0EDA28BC4C3400891DDE /* HomeViewController.xib */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		048C0EDE28BC4E3300891DDE /* 1.Basic Animation */ = {
+			isa = PBXGroup;
+			children = (
+				048C0EDF28BC4E6200891DDE /* BasicAnimationViewController.swift */,
+				048C0EE028BC4E6200891DDE /* BasicAnimationViewController.xib */,
+			);
+			path = "1.Basic Animation";
+			sourceTree = "<group>";
+		};
+		048C0EE428BC4E6B00891DDE /* 2.Core Animation */ = {
+			isa = PBXGroup;
+			children = (
+				048C0EE628BC4EB200891DDE /* DemoCoreAnimationViewController.swift */,
+				048C0EE728BC4EB200891DDE /* DemoCoreAnimationViewController.xib */,
+			);
+			path = "2.Core Animation";
+			sourceTree = "<group>";
+		};
+		048C0EE528BC4E8800891DDE /* 3.UIViewPropertyAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				048C0EEC28BC4ECC00891DDE /* DemoPropertyAnimationViewController.swift */,
+				048C0EED28BC4ECC00891DDE /* DemoPropertyAnimationViewController.xib */,
+			);
+			path = 3.UIViewPropertyAnimator;
+			sourceTree = "<group>";
+		};
+		04B0083228BCB518001837AE /* 5.KeyFrame */ = {
+			isa = PBXGroup;
+			children = (
+				04B0083328BCB53B001837AE /* KeyFrameViewController.swift */,
+				04B0083428BCB53B001837AE /* KeyFrameViewController.xib */,
+			);
+			path = 5.KeyFrame;
+			sourceTree = "<group>";
+		};
+		04B0083928BCC3BD001837AE /* 6.GroupTiming */ = {
+			isa = PBXGroup;
+			children = (
+				04B0084328BCC9D4001837AE /* GroupTimingViewController.swift */,
+				04B0084428BCC9D4001837AE /* GroupTimingViewController.xib */,
+			);
+			path = 6.GroupTiming;
+			sourceTree = "<group>";
+		};
+		04B0084828BD191F001837AE /* 7.CASpringAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				04B0085028BD1B66001837AE /* CASpringAnimationViewController.swift */,
+				04B0085128BD1B66001837AE /* CASpringAnimationViewController.xib */,
+			);
+			path = 7.CASpringAnimation;
+			sourceTree = "<group>";
+		};
+		04B0085B28BD2196001837AE /* 8.Shapes+MasksLayer */ = {
+			isa = PBXGroup;
+			children = (
+				04B0085C28BD21C4001837AE /* ShapesMasksLayerViewController.swift */,
+				04B0085D28BD21C4001837AE /* ShapesMasksLayerViewController.xib */,
+			);
+			name = "8.Shapes+MasksLayer";
+			path = "8.Shapes và Masks Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +348,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				0468BC422895026C00E17108 /* AnimateButtonViewController.xib in Resources */,
+				0413CE0B28BDC66B0040E791 /* ShowViewController.xib in Resources */,
+				048C0EEF28BC4ECC00891DDE /* DemoPropertyAnimationViewController.xib in Resources */,
 				0468BC342895020000E17108 /* LaunchScreen.storyboard in Resources */,
+				048C0EDC28BC4C3400891DDE /* HomeViewController.xib in Resources */,
+				04B0083628BCB53B001837AE /* KeyFrameViewController.xib in Resources */,
+				04B0084628BCC9D4001837AE /* GroupTimingViewController.xib in Resources */,
+				048C0EE928BC4EB200891DDE /* DemoCoreAnimationViewController.xib in Resources */,
+				046B5A8528BE09850080474F /* CollectionViewController.xib in Resources */,
+				04B0085F28BD21C4001837AE /* ShapesMasksLayerViewController.xib in Resources */,
 				0468BC312895020000E17108 /* Assets.xcassets in Resources */,
+				048C0EE228BC4E6200891DDE /* BasicAnimationViewController.xib in Resources */,
+				0438BE8528BC9F1D002CEE60 /* TransitionsViewController.xib in Resources */,
+				04B0085328BD1B66001837AE /* CASpringAnimationViewController.xib in Resources */,
+				046B5A9728BE0E3B0080474F /* SecondViewController.xib in Resources */,
+				046B5A9128BE0DDD0080474F /* CollectionViewCell.xib in Resources */,
 				0468BC4A2895121200E17108 /* TableViewController.xib in Resources */,
+				0413CE0528BDC6080040E791 /* PresentationAnimationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,10 +375,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046B5A8428BE09850080474F /* CollectionViewController.swift in Sources */,
+				048C0EDB28BC4C3400891DDE /* HomeViewController.swift in Sources */,
+				0438BE8428BC9F1D002CEE60 /* TransitionsViewController.swift in Sources */,
 				0468BC28289501FE00E17108 /* AppDelegate.swift in Sources */,
+				048C0EE128BC4E6200891DDE /* BasicAnimationViewController.swift in Sources */,
+				0438BE8828BC9F5A002CEE60 /* GreenViewController.swift in Sources */,
 				0468BC2A289501FE00E17108 /* SceneDelegate.swift in Sources */,
+				048C0EE828BC4EB200891DDE /* DemoCoreAnimationViewController.swift in Sources */,
+				04B0085E28BD21C4001837AE /* ShapesMasksLayerViewController.swift in Sources */,
+				04B0084528BCC9D4001837AE /* GroupTimingViewController.swift in Sources */,
+				046B5A9028BE0DDD0080474F /* CollectionViewCell.swift in Sources */,
+				0438BE8B28BC9F72002CEE60 /* RedViewController.swift in Sources */,
+				0413CE0A28BDC66B0040E791 /* ShowViewController.swift in Sources */,
+				048C0EEE28BC4ECC00891DDE /* DemoPropertyAnimationViewController.swift in Sources */,
+				04B0085228BD1B66001837AE /* CASpringAnimationViewController.swift in Sources */,
+				046B5A8A28BE0D750080474F /* DataManager.swift in Sources */,
 				0468BC412895026C00E17108 /* AnimateButtonViewController.swift in Sources */,
+				04B0083528BCB53B001837AE /* KeyFrameViewController.swift in Sources */,
+				046B5A9628BE0E3B0080474F /* SecondViewController.swift in Sources */,
 				0468BC492895121200E17108 /* TableViewController.swift in Sources */,
+				046B5A9A28BE10CC0080474F /* Animator2.swift in Sources */,
+				0413CE0428BDC6080040E791 /* PresentationAnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

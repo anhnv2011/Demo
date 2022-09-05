@@ -13,10 +13,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var userTextField: UITextField!
     
     let keySave = "username"
+    let key = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         userTextField.text = UserDefaults.standard.string(forKey: keySave)
-        
+        let valuekey = UserDefaults.standard.string(forKey: key)
+        print(valuekey)
     }
 
     @IBAction func actionSave(_ sender: Any) {
