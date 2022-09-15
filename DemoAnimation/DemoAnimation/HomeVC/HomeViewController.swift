@@ -17,6 +17,7 @@ enum animate: CaseIterable {
     case ShapesMasksLayer
     case PresentationAnimation
     case collectionView
+    case tableView
     var detailTitle:String{
         switch self {
         case .basicAnimation:
@@ -39,6 +40,8 @@ enum animate: CaseIterable {
             return "Presentation Animation"
         case .collectionView:
             return "Collection View cell"
+        case .tableView:
+            return "tableview"
         }
     }
 
@@ -64,6 +67,8 @@ enum animate: CaseIterable {
             return PresentationAnimationViewController()
         case .collectionView:
             return CollectionViewController()
+        case .tableView: 
+            return TableViewController()
         }
     }
 }
