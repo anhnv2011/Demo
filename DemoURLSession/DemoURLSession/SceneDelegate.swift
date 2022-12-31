@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         window?.windowScene = scene
         
-        let vc = UINavigationController(rootViewController: ItunesViewController())
+        let vc = UINavigationController(rootViewController: AnimeViewController())
         
         window?.rootViewController = vc
         window?.makeKeyAndVisible()

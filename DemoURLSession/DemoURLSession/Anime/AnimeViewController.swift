@@ -29,6 +29,8 @@ class AnimeViewController: UIViewController {
                 print("No data response")
                 return
             }
+            
+            print(value)
             let data = Anime(JSON(value)).data
             self.arrAnime = data!
             //print(self.arrAnime)

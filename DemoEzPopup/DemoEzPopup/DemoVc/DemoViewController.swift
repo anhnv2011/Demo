@@ -38,7 +38,7 @@ class DemoViewController: UIViewController {
     
     @IBAction func topRight(_ sender: Any) {
         let vc = NumberViewController()
-        let popVC = PopupViewController(contentController: vc, position: .topRight(CGPoint(x: 20, y: 20)), popupWidth: 200, popupHeight: 200)  //x: cách viền phải, y cách top
+        let popVC = PopupViewController(contentController: vc, position: .topRight(CGPoint(x: 0, y: 0)), popupWidth: 200, popupHeight: 200)  //x: cách viền phải, y cách top
         present(popVC, animated: true, completion: nil)
     }
     
@@ -74,7 +74,7 @@ class DemoViewController: UIViewController {
     
     @IBAction func offSetFromView(_ sender: Any) {
         let vc = NumberViewController()
-        let popVC = PopupViewController(contentController: vc, position:.offsetFromView(CGPoint(x: 10, y: topButton.frame.height), topButton), popupWidth: 100, popupHeight: 100) //x, y là mixX, minY của nút
+        let popVC = PopupViewController(contentController: vc, position:.offsetFromView(CGPoint(x: 0, y: -100), topButton), popupWidth: 100, popupHeight: 100) //x, y là mixX, minY của nút
         present(popVC, animated: true, completion: nil)
     }
     
