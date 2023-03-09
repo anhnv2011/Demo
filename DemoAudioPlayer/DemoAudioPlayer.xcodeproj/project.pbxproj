@@ -125,6 +125,7 @@
 		04BF7DCF286487C900FF27F6 /* DemoAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				04BF7E30286492C500FF27F6 /* audio.mp3 */,
 				04BF7E2F286492AA00FF27F6 /* Audio */,
 				04BF7E13286489D700FF27F6 /* Font */,
 				04BF7DD0286487C900FF27F6 /* AppDelegate.swift */,
@@ -178,7 +179,6 @@
 		04BF7E2F286492AA00FF27F6 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				04BF7E30286492C500FF27F6 /* audio.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";

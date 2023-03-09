@@ -83,8 +83,8 @@ extension UIViewController {
         alert.addAction(UIAlertAction(title: titleLeft, style: .default, handler: { _ in
             rightAction()
         }))
-        alert.addAction(UIAlertAction(title: titleLeft, style: .default, handler: { (<#UIAlertAction#>) in
-            <#code#>
+        alert.addAction(UIAlertAction(title: titleLeft, style: .default, handler: { (_) in
+            
         }))
         present(alert, animated: true)
     }

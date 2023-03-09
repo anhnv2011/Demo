@@ -33,7 +33,7 @@ class PlayerViewController: UIViewController {
             try AVAudioSession.sharedInstance().setActive(true)
             
             // Lấy ra đường dẫn path đến file nhạc đã thêm vào dự án
-            let path = Bundle.main.path(forResource: "audio2.mp3", ofType:nil)!
+            let path = Bundle.main.path(forResource: "audio.mp3", ofType:nil)!
             
             //lay ra url tu duong dan tren
             let urlAudio = URL(fileURLWithPath: path)
@@ -138,6 +138,6 @@ extension PlayerViewController:AVAudioPlayerDelegate {
         print("audio did finish")
         timer?.invalidate()
         reloadState()
-        showAlert(title: <#T##String#>, message: <#T##String#>, titleLeft: <#T##String#>, leftAction: <#T##(() -> Void)##(() -> Void)##() -> Void#>, rightTitle: <#T##String#>, rightAction: <#T##(() -> Void)##(() -> Void)##() -> Void#>)
+//        showAlert(title: <#T##String#>, message: <#T##String#>, titleLeft: <#T##String#>, leftAction: <#T##(() -> Void)##(() -> Void)##() -> Void#>, rightTitle: <#T##String#>, rightAction: <#T##(() -> Void)##(() -> Void)##() -> Void#>)
     }
 }
